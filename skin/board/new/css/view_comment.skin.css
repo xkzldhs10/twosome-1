@@ -1,0 +1,234 @@
+#view_comment_skin{
+	min-width: 800px;
+	margin: 0px auto;
+	
+}
+
+#view_comment_skin *{
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: Malgun Gothic;
+	font-size: 14px;
+	line-height: normal;
+}
+
+#view_comment_skin > ul.list{
+	list-style: none;
+	margin: 50px 0px;
+	border-top: 1px solid #333333;
+}
+
+#view_comment_skin > ul.list > li{
+	padding: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#view_comment_skin > ul.list > li > p > img{
+	vertical-align: -2px;
+}
+
+#view_comment_skin > ul.list > li > p > em{
+	margin-left: 10px;
+	font-style: normal;
+}
+
+#view_comment_skin > ul.list > li > p > a{
+	float: right;
+	margin-left: 5px;
+}
+
+#view_comment_skin > ul.list > li > p > a > img{
+	vertical-align: 0px;
+}
+
+#view_comment_skin > ul.list > li > p:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}
+
+#view_comment_skin > ul.list > li > div{
+	margin-top: 10px;
+}
+
+#view_comment_skin > ul.list > li > div.secret{
+	color: #999999;
+}
+
+#view_comment_skin > ul.list > li > div > img{
+	vertical-align: -2px;
+}
+
+#view_comment_skin > ul.list > li > div > a{
+	float: right;
+	margin-left: 5px;
+}
+
+#view_comment_skin > ul.list > li > div > a > img{
+	vertical-align: -3px;
+}
+
+#view_comment_skin > ul.list > li > div:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}
+
+#view_comment_skin > ul.list > li > form{
+	display: none;
+	margin-top: 20px;
+}
+
+#view_comment_skin > ul.list > li > fieldset{
+	display: none;
+}
+
+#view_comment_skin span.sv_wrap > a > img{
+	height: 21px;
+	vertical-align: -6px;
+}
+
+#view_comment_skin span.sv_wrap > span.sv{
+	margin: 0px;
+	padding: 5px 0px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+#view_comment_skin span.sv_wrap > span.sv > a{
+	width: 80px;
+	padding: 5px 10px;
+	border-style: none;
+	background-color: #FFFFFF;
+	color: #333333 !important;
+	font-size: 12px;
+}
+
+#view_comment_skin form.view_comment_form > table{
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #333333;
+	border-collapse: collapse;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > th{
+	width: 120px;
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+	font-weight: normal;
+	text-align: left;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > th > img{
+	vertical-align: -2px;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > td{
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > td > input[type=text]{
+	width: 150px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > td > input[type=password]{
+	width: 150px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > td > fieldset{
+	margin: 10px 0px;
+}
+
+#view_comment_skin form.view_comment_form > table > tbody > tr > td > fieldset > legend{
+	display: none;
+}
+
+#view_comment_skin form.view_comment_form > div{
+	float: left;
+	width: 90%;
+}
+
+#view_comment_skin form.view_comment_form > div > p{
+	margin-right: 10px;
+}
+
+#view_comment_skin form.view_comment_form > div > p > textarea{
+	width: 100%;
+	height: 98px;
+	border: 1px solid #CCCCCC;
+}
+
+#view_comment_skin form.view_comment_form > div > div{
+	margin: 10px 10px 0px 0px;
+}
+
+#view_comment_skin form.view_comment_form > div > div > label{
+	cursor: pointer;
+}
+
+#view_comment_skin form.view_comment_form > div > div > label > input[type=checkbox]{
+	vertical-align: -2px;
+	cursor: pointer;
+}
+
+#view_comment_skin form.view_comment_form > div > div > strong{
+	float: right;
+	font-weight: normal;
+}
+
+#view_comment_skin form.view_comment_form > div > div > strong:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}
+
+#view_comment_skin form.view_comment_form > button{
+	float: right;
+	width: 10%;
+	height: 100px;
+	border-style: none;
+	border-radius: 10px;
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#view_comment_skin form.view_comment_form > fieldset{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+#view_comment_skin span.sound_only{
+	font-size: 0px;
+}
+
+#view_comment_form{
+	margin: 50px 0px;
+}
+
+#bo_vc_sns{
+	display: inline;
+	list-style: none;
+	vertical-align: -2px;
+}
+
+#bo_vc_sns > li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#bo_vc_sns > li > input[type=checkbox]{
+	vertical-align: -2px;
+	cursor: pointer;
+}

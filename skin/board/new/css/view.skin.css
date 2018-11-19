@@ -1,0 +1,135 @@
+#view_skin{
+	min-width: 800px;
+	margin: 0px auto;
+}
+
+#view_skin *{
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: Malgun Gothic;
+	font-size: 14px;
+	line-height: normal;
+}
+
+#view_skin > h1.title{
+	margin: 50px 0px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#view_skin > h2.subject{
+	height: 50px;
+	padding: 0px 20px;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+#view_skin > table.view{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#view_skin > table.view > tbody > tr > td{
+	width: 100px;
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCCCCC;
+	color: #999999;
+}
+
+#view_skin > table.view > tbody > tr > td.wide{
+	width: 200px;
+}
+
+#view_skin > table.view > tbody > tr > td.auto{
+	width: auto;
+}
+
+#view_skin > table.view > tbody > tr > td > span{
+	margin-left: 10px;
+}
+
+#view_skin > table.view > tbody > tr > td > a{
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+#view_skin > table.view > tbody > tr > td > a:hover{
+	color: #0066CC;
+}
+
+#view_skin > div.content{
+	min-height: 300px;
+	padding: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#view_skin > div.content > a{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#view_skin > div.content > ul{
+	list-style: none;
+	margin-top: 20px;
+	text-align: right;
+}
+
+#view_skin > div.content > ul > li{
+	display: inline-block;
+}
+
+#view_skin > div.content > p{
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#view_skin > p.button{
+	margin: 50px 0px;
+	text-align: center;
+}
+
+#view_skin > p.button > a{
+	display: inline-block;
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-weight: normal;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+#view_skin > p.button > a > span{
+	color: #FFFFFF;
+}
+
+#view_skin span.sv_wrap > a > img{
+	height: 21px;
+	vertical-align: -6px;
+}
+
+#view_skin span.sv_wrap > span.sv{
+	margin: 0px;
+	padding: 5px 0px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+#view_skin span.sv_wrap > span.sv > a{
+	width: 80px;
+	padding: 5px 10px;
+	border-style: none;
+	background-color: #FFFFFF;
+	color: #333333 !important;
+	font-size: 12px;
+}

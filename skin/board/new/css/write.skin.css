@@ -1,0 +1,252 @@
+#write_skin{
+	min-width: 800px;
+	margin: 0px auto;
+}
+
+#write_skin *{
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: Malgun Gothic;
+	font-size: 14px;
+	line-height: normal;
+}
+
+#write_skin > h1.title{
+	margin: 50px 0px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#write_skin > table.write{
+	width: 100%;
+	border-top: 1px solid #333333;
+	border-collapse: collapse;
+}
+
+#write_skin > table.write > tbody > tr > th{
+	width: 120px;
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+	font-weight: normal;
+	text-align: left;
+}
+
+#write_skin > table.write > tbody > tr > th > img{
+	vertical-align: -2px;
+}
+
+#write_skin > table.write > tbody > tr > td{
+	height: 50px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#write_skin > table.write > tbody > tr > td > input[type=text]{
+	width: 150px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+
+#write_skin > table.write > tbody > tr > td > input[type=text].wide{
+	width: 250px;
+}
+
+#write_skin > table.write > tbody > tr > td > input[type=text].full{
+	width: 450px;
+}
+
+#write_skin > table.write > tbody > tr > td > input[type=password]{
+	width: 150px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+
+#write_skin > table.write > tbody > tr > td > select{
+	width: 150px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+
+#write_skin > table.write > tbody > tr > td > button{
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+#write_skin > table.write > tbody > tr > td > button > span{
+	color: #FFFFFF;
+	vertical-align: -1px;
+}
+
+#write_skin > table.write > tbody > tr > td > div{
+	position: relative;
+}
+
+#write_skin > table.write > tbody > tr > td > label{
+	margin-left: 10px;
+	vertical-align: -1px;
+	cursor: pointer;
+}
+
+#write_skin > table.write > tbody > tr > td > label > input[type=checkbox]{
+	vertical-align: -2px;
+	cursor: pointer;
+}
+
+#write_skin > table.write > tbody > tr > td > fieldset{
+	margin: 10px 0px;
+}
+
+#write_skin > table.write > tbody > tr > td > fieldset > legend{
+	display: none;
+}
+
+#write_skin > div.content{
+	padding: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#write_skin > div.content > textarea{
+	border: 1px solid #CCCCCC;
+}
+
+#write_skin > div.content > label{
+	display: inline-block;
+	margin: 10px 20px 0px 0px;
+	cursor: pointer;
+}
+
+#write_skin > div.content > label > input[type=checkbox]{
+	vertical-align: -2px;
+	cursor: pointer;
+}
+
+#write_skin > div.content > strong{
+	display: inline-block;
+	float: right;
+	margin: 10px 0px 0px 20px;
+	font-weight: normal;
+}
+
+#write_skin > div.content > strong:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}
+
+#write_skin > p.button{
+	margin: 50px 0px;
+	text-align: center;
+}
+
+#write_skin > p.button > input[type=submit]{
+	height: 50px;
+	padding: 0px 25px 0px 25px;
+	border-style: none;
+	border-radius: 10px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#write_skin > p.button > a{
+	display: inline-block;
+	height: 50px;
+	padding: 0px 25px 0px 25px;
+	border-radius: 10px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+#write_skin span.sound_only{
+	font-size: 0px;
+}
+
+#write_skin button.btn_cke_sc{
+	display: none;
+}
+
+#autosave_pop{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	width: 450px;
+	top: -30px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+
+#autosave_pop > p{
+	height: 28px;
+	background-color: #F5F5F5;
+}
+
+#autosave_pop > p > span{
+	display: inline-block;
+	padding: 0px 10px;
+	color: #999999;
+	line-height: 28px;
+}
+
+#autosave_pop > p > img{
+	float: right;
+	cursor: pointer;
+}
+
+#autosave_pop > p > img:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}
+
+#autosave_pop > ul{
+	list-style: none;
+}
+
+#autosave_pop > ul > li{
+	height: 28px;
+	padding: 0px 10px;
+	border-top: 1px dashed #CCCCCC;
+}
+
+#autosave_pop > ul > li:first-child{
+	border-top: 1px solid #CCCCCC;
+}
+
+#autosave_pop > ul > li > a{
+	line-height: 28px;
+	text-decoration: none;
+}
+
+#autosave_pop > ul > li > a:hover{
+	color: #0066CC;
+}
+
+#autosave_pop > ul > li > span{
+	float: right;
+	line-height: 28px;
+}
+
+#autosave_pop > ul > li > span > button{
+	margin-left: 5px;
+	border-style: none;
+	background-color: #FFFFFF;
+	vertical-align: 0px;
+}
+
+#autosave_pop > ul > li > span:after{
+	display: block;
+	clear: both;
+	border-style: none;
+}

@@ -1,0 +1,306 @@
+#list_skin{
+	min-width: 800px;
+	margin: 0px auto;
+}
+
+#list_skin *{
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: Malgun Gothic;
+	font-size: 14px;
+	line-height: normal;
+}
+
+#list_skin > h1.title{
+	margin: 50px 0px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#list_skin > ul.category{
+	list-style: none;
+	height: 50px;
+	margin: 50px 0px;
+	border-bottom: 1px solid #333333;
+}
+
+#list_skin > ul.category > li{
+	float: left;
+	height: 50px;
+	padding: 0px 25px;
+	line-height: 50px;
+}
+
+#list_skin > ul.category > li.on{
+	border-bottom: 1px solid #333333;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #333333;
+}
+
+#list_skin > ul.category > li > a{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#list_skin > ul.category > li.on > a{
+	color: #FFFFFF;
+}
+
+#list_skin > ul.category:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+#list_skin > p.total{
+	margin: 10px 0px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#list_skin > p.total > span{
+	vertical-align: -1px;
+}
+
+#list_skin > p.total > a{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+
+#list_skin > p.total:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+#list_skin > form.list{
+	margin: 10px 0px;
+}
+
+#list_skin > form.list > table{
+	width: 100%;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+#list_skin > form.list > table > thead > tr > th{
+	width: 80px;
+	height: 50px;
+	background-color: #F5F5F5;
+	font-weight: normal;
+}
+
+#list_skin > form.list > table > thead > tr > th.slim{
+	width: 60px;
+}
+
+#list_skin > form.list > table > thead > tr > th.wide{
+	width: 120px;
+}
+
+#list_skin > form.list > table > thead > tr > th.auto{
+	width: auto;
+}
+
+#list_skin > form.list > table > thead > tr > th > input[type=checkbox]{
+	cursor: pointer;
+}
+
+#list_skin > form.list > table > thead > tr > th > a{
+	text-decoration: none;
+}
+
+#list_skin > form.list > table > thead > tr > th > a > img{
+	vertical-align: 0px;
+}
+
+#list_skin > form.list > table > tbody > tr > td{
+	min-height: 50px;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+}
+
+#list_skin > form.list > table > tbody > tr.notice > td{
+	font-weight: bold;
+}
+
+#list_skin > form.list > table > tbody > tr > td.left{
+	padding: 0px 10px;
+	text-align: left;
+}
+
+#list_skin > form.list > table > tbody > tr > td > input[type=checkbox]{
+	cursor: pointer;
+}
+
+#list_skin > form.list > table > tbody > tr > td > a{
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+
+#list_skin > form.list > table > tbody > tr > td > p{
+	margin: 10px 0px;
+}
+
+#list_skin > form.list > table > tbody > tr > td > p > img{
+	vertical-align: -2px;
+}
+
+#list_skin > form.list > table > tbody > tr > td > p > a{
+	text-decoration: none;
+}
+
+#list_skin > form.list > table > tbody > tr > td > p > a:hover{
+	color: #0066CC;
+}
+
+#list_skin > form.list > table > tbody > tr > td > div{
+	overflow: hidden;
+	margin: 10px 0px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#list_skin > form.list > table > tbody > tr > td > div *{
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#list_skin > form.list > p{
+	margin-top: 10px;
+}
+
+#list_skin > form.list > p > button{
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+#list_skin > form.list > p > a{
+	display: inline-block;
+	float: right;
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+#list_skin > form.list > p:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+#list_skin > form.search{
+	margin: 50px 0px;
+	text-align: center;
+}
+
+#list_skin > form.search > input[type=text]{
+	width: 200px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+
+#list_skin > form.search > select{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+
+#list_skin > form.search > button{
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+#list_skin > form.search > a{
+	display: inline-block;
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+	line-height: 30px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+#list_skin span.sound_only{
+	font-size: 0px;
+}
+
+#list_skin span.cnt_cmt{
+	color: #CC0000;
+	font-family: tahoma;
+	font-size: 11px;
+	vertical-align: 1px;
+}
+
+#list_skin span.sv_wrap > a > img{
+	height: 21px;
+	vertical-align: -6px;
+}
+
+#list_skin span.sv_wrap > span.sv{
+	margin: 0px;
+	padding: 5px 0px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+#list_skin span.sv_wrap > span.sv > a{
+	width: 80px;
+	padding: 5px 10px;
+	border-style: none;
+	background-color: #FFFFFF;
+	color: #333333 !important;
+	font-size: 12px;
+}
+
+#list_skin nav.pg_wrap{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#list_skin nav.pg_wrap > span.pg > strong.pg_current{
+	display: inline-block;
+	height: 28px;
+	padding: 0px 10px;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-weight: normal;
+	line-height: 28px;
+}
+
+#list_skin nav.pg_wrap > span.pg > a.pg_page{
+	display: inline-block;
+	height: 28px;
+	padding: 0px 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	line-height: 28px;
+	text-decoration: none;
+}
+
+#list_skin nav.pg_wrap > span.pg > a.pg_page > img{
+	vertical-align: 0px;
+}
