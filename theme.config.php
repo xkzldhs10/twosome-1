@@ -33,6 +33,6 @@ $theme_config = array(
     'bo_mobile_gallery_height'  => 100,     // 모바일 갤러리 이미지 높이
     'bo_image_width'            => 600,     // 게시판 뷰 이미지 폭
     'qa_skin'                   => 'basic', // 1:1문의 스킨
-    'qa_mobile_skin'            => 'basic'  // 1:1문의 모바일 스킨
+    'qa_mobile_skin'            => 'basic'  // 1:1문의 모바일 스킨1111
 );
 ?>
